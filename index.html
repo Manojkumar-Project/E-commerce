@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechHub</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo"><a href="index.html">TechHub</a></div>
+      <!-- Search input -->
+      <input type="text" id="txtSearch" class="form-control mb-3" placeholder="Search Product..." />
+
+      <!-- Category list -->
+      <h3>Category</h3>
+      <ul class="list-group category-list"></ul>
+
+
+
+      <!-- Price range slider -->
+      <h3>Price Range</h3>
+      <div class="price">
+        <input type="range" id="priceRange" class="custom-range mb-3" />
+        <span class="priceValue">500</span>
+      </div>
+    </div>
+
+
+
+    <!-- Product display area -->
+    <div class="content">
+      <div class="products row"></div>
+    </div>
+  </div>
+
+  <!-- Share section -->
+  <div id="share" class="share-container">
+    <h3 class="share-title">Share</h3>
+    <div class="share-tagline">Share this page with your friends.</div>
+    <div class="share-buttons">
+      <a class="share-button" target="_blank" href="#" rel="noreferrer">
+        <img src="https://m.media-amazon.com/images/G/31/AmazonStores/facebook._CB485941703_.png"
+          alt="Share on Facebook" height="20px" width="40px">
+      </a>
+      <a class="share-button" target="_blank" href="#" rel="noreferrer">
+        <img src="https://m.media-amazon.com/images/G/31/AmazonStores/twitter._CB438369374_.png" alt="Share on Twitter"
+          height="20px" width="40px">
+      </a>
+      <a class="share-button" target="_blank" href="#" rel="noreferrer">
+        <img src="https://m.media-amazon.com/images/G/31/AmazonStores/pinterest._CB485948240_.png"
+          alt="Share on Pinterest" height="20px" width="40px">
+      </a>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!-- Bootstrap and custom JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
